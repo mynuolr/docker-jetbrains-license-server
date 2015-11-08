@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER Mateusz Małek <mmalek@iisg.agh.edu.pl>
+MAINTAINER gzlock <gzlock88@gmail.com>
 
 ENV LCSRV_HOME /opt/jetbrains/lcsrv/home
 ENV LCSRV_INSTALL /opt/jetbrains/lcsrv/install
