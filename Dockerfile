@@ -6,6 +6,7 @@ ENV LCSRV_INSTALL /opt/jetbrains/lcsrv/install
 
 RUN cd /tmp && \
 	mkdir -p "${LCSRV_INSTALL}" && \
+	mkdir -p "${LCSRV_HOME}" && \
 	wget https://download.jetbrains.com/lcsrv/license-server-installer.zip && \
 	unzip license-server-installer.zip -d "${LCSRV_INSTALL}" && \
 	rm license-server-installer.zip && \
